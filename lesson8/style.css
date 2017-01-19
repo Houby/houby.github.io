@@ -1,0 +1,51 @@
+/*task1*/
+
+div.main {
+    width: auto;
+    height: auto;
+}
+
+div#inner {
+    float: left;
+    background-color: yellow;
+    min-width: 700px;
+    display: inline-block;
+    width: 85%;
+    vertical-align: top;
+    height: 90px;
+    right: 250px;
+}
+
+div#inner::after {
+    border: 46px solid white;
+    border-left: 40px solid yellow;
+    border-right: 100px solid white;
+    z-index: 5;
+    content: '';
+    font-size: 0;
+    float: right;
+    margin-top: -52px;
+    margin-right: -120px;
+}
+
+input, input + label {
+    font-size: 25px;
+}
+
+
+input[type=button] {
+    font-size: 25px;
+    padding: 5px;
+}
+
+input[type=text] {
+    width: 80%;
+    margin: 5px 10px;
+    font-size: 25px;
+    padding: 5px;
+}
+
+input[type=checkbox] {
+    margin: 5px 10px;
+}
+

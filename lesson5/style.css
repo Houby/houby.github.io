@@ -1,0 +1,175 @@
+/* latin-ext */
+@font-face {
+    font-family: 'Economica';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Economica'), local('Economica-Regular'), url(http://fonts.gstatic.com/s/economica/v4/ivOlup5oBnODGd64nVDAFBJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Economica';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Economica'), local('Economica-Regular'), url(http://fonts.gstatic.com/s/economica/v4/jObgDQiPUtmACAaaK3pMG1tXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'Economica';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Economica Bold'), local('Economica-Bold'), url(http://fonts.gstatic.com/s/economica/v4/UK4l2VEpwjv3gdcwbwXE9D0LW-43aMEzIO6XUTLjad8.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Economica';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Economica Bold'), local('Economica-Bold'), url(http://fonts.gstatic.com/s/economica/v4/UK4l2VEpwjv3gdcwbwXE9Ogdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+/*task1*/
+.container {
+    width: 900px;
+    position: absolute;
+    left: 50%;
+    margin-left: -450px;
+}
+
+.column {
+    font-family: Economica;
+    font-size: 20px;
+    color: white;
+    padding: 5px 13px;
+    display: inline-block
+}
+
+.column:hover {
+    background: lightgrey;
+    color: grey;
+}
+
+.back {
+    background: deepskyblue;
+    height: 33px;
+}
+
+/*
+.back-2 {
+    box-shadow: 0 0 3px;
+    z-index: -100;
+}
+*/
+
+.news-new {
+    display: none;
+}
+
+.column:hover > div {
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    box-shadow: 0 0 3px;
+    z-index: -1;
+}
+
+.in {
+    float: left;
+    width: 50px;
+    background-color: lightgray;
+    margin-top: 5px;
+    padding: 5px 25px;
+    text-align: center;
+}
+
+
+
+
+/*task2*/
+.border {
+    border: 3px solid rgba(255, 69, 0, 0.75);
+    border-radius: 5px;
+    margin: 0 200px;
+    width: 280px;
+    box-shadow: 0 0 10px rgba(26, 174, 255, 0.63);
+}
+
+.head {
+    height: 75px;
+    width: 280px;
+    background-color: rgba(255, 69, 0, 0.75);
+    color: white;
+    font-family: Economica;
+    font-size: 25px;
+    text-align: center;
+    line-height: 75px;
+    vertical-align: middle;
+}
+
+.butt {
+    font-family: Economica;
+    background-color: rgba(255, 69, 0, 0.75);
+    width: 86%;
+    font-size: 20px;
+    height: 40px;
+    margin: 5px 7%;
+    text-align: center;
+    border-radius: 5px;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 40px;
+    box-shadow: 0 3px 0 #e84100;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.h1 {
+    font-family: Economica;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.tab {
+    font-family: Economica;
+    width: 90%;
+    background-color: red;
+    padding: 3px;
+    text-align: left;
+    margin: 1px 4%;
+    vertical-align: middle;
+}
+
+.tab1 {
+    background-color: antiquewhite;
+}
+
+.tab2 {
+    background-color: rgba(0, 255, 255, 0.31);
+}
+
+.doll1 {
+    font-family: Economica;
+    font-size: 30px;
+    position: absolute;
+    left: 60px;
+}
+
+.doll2 {
+    font-family: Economica;
+    font-size: 80px;
+    position: absolute;
+    left: 75px;
+}
+
+.doll3 {
+    font-family: Economica;
+    font-size: 25px;
+    position: absolute;
+    left: 140px;
+    top: 60px;
+}

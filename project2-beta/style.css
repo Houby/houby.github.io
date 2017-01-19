@@ -1,0 +1,164 @@
+.gallery {
+    display: inline-block;
+    max-width: 1170px;
+    min-width: 390px;
+    font-size: 0;
+    position: relative;
+}
+body {
+    background: #f6f9f9;
+    text-align: center;
+}
+#bodyin {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(195, 195, 195, 0.9);
+}
+h1 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 55px;
+    z-index: -5;
+}
+h2 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: gray;
+    font-size: 35px;
+    z-index: -5;
+}
+input[type=radio] {
+    display: none;
+}
+.button {
+    height: 260px;
+    width: 360px;
+    display: inline-block;
+    margin: 15px;
+    position: relative;
+    border-radius: 5px;
+}
+div.button > label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url("images/lupa.gif") center no-repeat;
+    padding: 17px;
+    border-radius: 3px;
+    border: 1px solid white;
+    margin: 100px 0 0 140px;
+    display: none;
+    cursor: pointer;
+}
+div.button:hover > label {
+    display: inline-block;
+}
+div.button > label:hover {
+    background-color: #25a6f7;
+}
+.pick1 {
+    background: url("images/pick1.gif") no-repeat center;
+    background-size: cover;
+}
+.pick2 {
+    background: url("images/pick2.gif") no-repeat center;
+    background-size: cover;
+}
+.pick3 {
+    background: url("images/pick3.gif") no-repeat center;
+    background-size: cover;
+}
+.pick4 {
+    background: url("images/pick4.gif") no-repeat center;
+    background-size: cover;
+}
+.pick5 {
+    background: url("images/pick5.gif") no-repeat center;
+    background-size: cover;
+}
+.pick6 {
+    background: url("images/pick6.gif") no-repeat center;
+    background-size: cover;
+}
+.button:hover {
+    background-blend-mode: multiply;
+    background-color: rgba(61, 173, 248, 0.8);
+}
+.x-pick {
+    position: absolute;
+    max-width: 1140px;
+    max-height: 550px;
+    width: 100%;
+    height: 100%;
+    top: 15px;
+    bottom: 15px;
+    right: 15px;
+    left: 15px;
+    display: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border: 3px solid grey;
+    z-index: 50;
+}
+label.x-button {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background: #25a6f7;
+    right: 36px;
+    top: -4px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+    z-index: 50;
+}
+#button1:checked ~ .pick1 {
+    display: inline-block;
+}
+#button1:checked ~ .x-button1 {
+    display: inline-block;
+}
+#button2:checked ~ .pick2 {
+    display: inline-block;
+}
+#button2:checked ~ .x-button2 {
+    display: inline-block;
+}
+#button3:checked ~ .pick3 {
+    display: inline-block;
+}
+#button3:checked ~ .x-button3 {
+    display: inline-block;
+}
+#button4:checked ~ .pick4 {
+    display: inline-block;
+}
+#button4:checked ~ .x-button4 {
+    display: inline-block;
+}
+#button5:checked ~ .pick5 {
+    display: inline-block;
+}
+#button5:checked ~ .x-button5 {
+    display: inline-block;
+}
+#button6:checked ~ .pick6 {
+    display: inline-block;
+}
+#button6:checked ~ .x-button6 {
+    display: inline-block;
+}
+.x-button:hover {
+    background-color: #f74c26;
+}
+#button1:checked ~ #bodyin {
+    display: block;
+    z-index: 10;
+}
