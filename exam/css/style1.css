@@ -1147,3 +1147,36 @@ input[name=tabbbs]:checked + .tabbbs-header {
     box-shadow: 1px -1px 3px grey;
     cursor: pointer;
 }
+
+.contact-left, .contact-right {
+    display: inline-block;
+}
+
+.contact-right {
+    border-radius: 5px;
+    border: 1px solid #ececec;
+    width: 310px;
+    vertical-align: top;
+    margin: 20px 0 0 20px;
+}
+
+.contact-right1 {
+    font-weight:700;
+    border-bottom: 1px solid #ececec;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #666;
+    font-family: 'Arial', sans-serif;
+    margin: 0 10px;
+    padding: 5px 0;
+}
+
+.contact-right2 {
+    color: #444;
+    font-size: 12px;
+    font-family: 'Arial', sans-serif;
+    margin: 10px 10px 20px 10px;
+    text-align: justify;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+}
