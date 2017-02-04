@@ -2,6 +2,7 @@
  * Created by Yakuhaishik on 04.02.2017.
  */
 var a = +prompt('Pls enter A?', '');
+
 switch (a) {
     case 0 : alert (0);
         break;
@@ -12,4 +13,5 @@ switch (a) {
         alert('2, 3');
         break;
     default : alert ('niga');
+        break;
 }
