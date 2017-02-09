@@ -21,13 +21,61 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DW Invert values.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DW Invert values.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DW Invert values.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
               <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
               <folding>
                 <element signature="n#!!doc;n#invert#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Broken Counter.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Broken Counter.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+              <folding>
+                <element signature="n#!!doc;n#Counter#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Plural.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Plural.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+              <folding>
+                <element signature="n#!!doc;n#plural#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Function 1 - hello world.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Function 1 - hello world.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+              <folding>
+                <element signature="n#!!doc;n#greet#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Are You Playing Banjo.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Are You Playing Banjo.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+              <folding>
+                <element signature="n#!!doc;n#areYouPlayingBanjo#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -57,42 +105,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Opposites Attract.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Opposites Attract.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
-              <folding>
-                <element signature="n#!!doc;n#lovefunc#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Return Negative.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Return Negative.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-              <folding>
-                <element signature="n#!!doc;n#makeNegative#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Jenny's secret message.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Jenny's secret message.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
-              <folding>
-                <element signature="n#!!doc;n#greet#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Even ot Odd.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Even ot Odd.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -100,18 +112,6 @@
               <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
               <folding>
                 <element signature="n#!!doc;n#even_or_odd#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Convert a String to a Number.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Convert a String to a Number.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-              <folding>
-                <element signature="e#0#48#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -164,6 +164,10 @@
         <option value="$PROJECT_DIR$/Multiply.js" />
         <option value="$PROJECT_DIR$/DW Count of positives/sum of negatives.js" />
         <option value="$PROJECT_DIR$/Calculate average.js" />
+        <option value="$PROJECT_DIR$/Broken Counter.js" />
+        <option value="$PROJECT_DIR$/Plural.js" />
+        <option value="$PROJECT_DIR$/Function 1 - hello world.js" />
+        <option value="$PROJECT_DIR$/Are You Playing Banjo.js" />
       </list>
     </option>
   </component>
@@ -295,12 +299,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1486594030390</updated>
-      <workItem from="1486594031462" duration="1337000" />
+      <workItem from="1486594031462" duration="2844000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1337000" />
+    <option name="totallyTimeSpent" value="2844000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="644" y="0" width="665" height="775" extended-state="0" />
@@ -438,6 +442,46 @@
           <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
           <folding>
             <element signature="n#!!doc;n#invert#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Broken Counter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+          <folding>
+            <element signature="n#!!doc;n#Counter#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plural.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+          <folding>
+            <element signature="n#!!doc;n#plural#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Function 1 - hello world.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+          <folding>
+            <element signature="n#!!doc;n#greet#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Are You Playing Banjo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+          <folding>
+            <element signature="n#!!doc;n#areYouPlayingBanjo#0" expanded="false" />
           </folding>
         </state>
       </provider>
