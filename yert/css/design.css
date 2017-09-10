@@ -1,0 +1,42 @@
+body {
+    background-color: #bababa;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.FirstOuter {
+    background-color: #89c70c;
+    height:600px;
+    width: 1000px;
+    /*min-width: 1000px;*/
+    /*min-height: 600px;*/
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.SecondOuter {
+    border: solid 5px red;
+    height: 100px;
+    width: 154px;
+}
+
+#naming {
+    font-size: 20px;
+    padding-left: 10px;
+}
+#numbering {
+    font-size: 19px;
+}
+
+table {
+    text-align: center;
+    margin-top: 20px;
+}
+
+p, #naming {
+    margin: 0px;
+    display: inline-block;
+}
